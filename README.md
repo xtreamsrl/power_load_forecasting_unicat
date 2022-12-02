@@ -1,4 +1,4 @@
-# Power load forecasting Unicatt
+# Power load forecasting @ UniCatt
 
 ## Abstract
 Negli ultimi anni, Python si è affermato come il linguaggio della Data Science e del Machine Learning. In questo seminario,
