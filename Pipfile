@@ -4,10 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+pandas = "*"
+plotly = "*"
+scikit-learn = "==1.0.2"
+streamlit = "*"
+holidays = "*"
 
 [dev-packages]
 nbstripout = "*"
 jupyter = "*"
+gdown = "*"
+statsmodels = "*"
 
 [requires]
-python_version = "3.7"
+python_version = "3.8"
