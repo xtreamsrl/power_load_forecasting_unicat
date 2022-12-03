@@ -1,13 +1,12 @@
 import datetime
-from plotly import express as px
 
 import pandas as pd
 import streamlit as st
+from plotly import express as px
 
 from evaluation.metrics import MAPE
-from modeling.linear_regression import LinearRegressionPredictor
-
-from utils.date_range_overlap import time_windows_overlap
+from modeling.linear_regression_predictor import LinearRegressionPredictor
+from utils.time_windows_overlap import time_windows_overlap
 
 st.set_page_config(layout="wide")
 
